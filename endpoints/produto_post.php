@@ -16,7 +16,7 @@ function api_produto_post($request) {
       'post_type'   => 'produto',
       'post_title'  => $nome,
       'post_status' => 'publish',
-      'meta_imput'  => array (
+      'meta_input'  => array (
         'nome'       => $nome,
         'preco'      => $preco,
         'descricao'  => $descricao,
